@@ -1,0 +1,30 @@
+  {
+  "name": "gq",
+  "version": "1.0.0",
+  "description": "gq is a cli wrapper base on reqiure('google')",
+  "main": "index.js",
+  "scripts": {
+    "start":"node gq.js",
+    "test": "node --debug gq.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:voidcode/nodejs-gq.git"
+  },
+  "keywords": [
+    "google",
+    "npm",
+    "search",
+    "plugin",
+    "cli"
+  ],
+  "author": "=Voidcode <=terkelsorensen@gmail.com> (=)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voidcode/nodejs-gq/issues"
+  },
+  "homepage": "https://github.com/voidcode/nodejs-gq",
+  "dependencies":{
+    "google": "*"
+  }
+}
