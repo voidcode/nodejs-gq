@@ -6,4 +6,4 @@ gq is a little termainal wrapper base on reqiure('google') to make google search
 $ npm install -g gq
 ```
 
-*Now you run a google search with:  ``` gq <SEARCH-STRING> ```
+**Now you run a google search with:  ``` gq '<SEARCH-STRING>' ```
