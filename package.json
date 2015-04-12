@@ -1,11 +1,13 @@
   {
   "name": "gq",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "gq is a cli wrapper base on reqiure('google')",
-  "main": "index.js",
   "scripts": {
     "start":"node gq.js",
     "test": "node --debug gq.js"
+  },
+  "bin": {
+    "gq": "gq.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   },
   "homepage": "https://github.com/voidcode/nodejs-gq",
   "dependencies":{
-    "google": "*"
+    "google": "*",
+    "suggestion": "*"
   }
 }
