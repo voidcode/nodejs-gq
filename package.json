@@ -1,6 +1,6 @@
-  {
+    {
   "name": "gq",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "gq is a cli wrapper base on reqiure('google')",
   "scripts": {
     "start":"node gq.js",

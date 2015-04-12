@@ -10,7 +10,7 @@ $ npm install -g gq
 
 #Limit search
 ```
-$ gq '<SEARCH-STRING>' --limit 1 
+$ gq '<SEARCH-STRING>' 1 
 ```
 
 *This will return something like below:*
